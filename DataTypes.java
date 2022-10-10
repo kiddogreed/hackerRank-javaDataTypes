@@ -7,6 +7,8 @@ public class DataTypes {
     
     //int t, n ;
 
+    System.out.println(123);
+
 
   }
 

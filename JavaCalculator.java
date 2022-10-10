@@ -6,9 +6,6 @@ import java.io.IOException;
  */
 public class JavaCalculator {
 
-  public static void main(String[] args) {
-    
-  }
 
 
 
@@ -30,34 +27,34 @@ public class JavaCalculator {
       switch (opt) {
         case 1:
         System.out.println("answer:"+addMe(a, b));
-        System.out.println("continue? please type 'true' or it will terminate");
+        genericMsg();
         scanr.nextBoolean();
         clearScreen();
         
           break;
         case 2:
         System.out.println("answer:"+subMe(a, b));
-        System.out.println("continue? please type 'true' or it will terminate");
+        genericMsg();
         scanr.nextBoolean();
         clearScreen();
           break;
         case 3:
         System.out.println("answer:"+mulMe(a, b));
-        System.out.println("continue? please type 'true' or it will terminate");
+        genericMsg();
         scanr.nextBoolean();
         clearScreen();
           break;  
           
         case 4:
         System.out.println("answer:"+divMe(a, b));
-        System.out.println("continue? please type 'true' or it will terminate");
+        genericMsg();
         scanr.nextBoolean();
         clearScreen();
           break;  
       
         default:
         System.out.println("Unable to process :(");
-        System.out.println("continue? please type 'true' or it will terminate");
+        genericMsg();
         scanr.nextBoolean();
           break;
        }
@@ -89,6 +86,14 @@ public class JavaCalculator {
     System.out.print("\033[H\033[2J");  
     System.out.flush();  
 }  
+
+  public static void genericMsg(){
+    System.out.println("continue? please type 'true' or it will terminate");
+  }
+
+  public void inputAccept(int a, int b  ) {
+    
+  }
   
 
 
