@@ -4,3 +4,4 @@
 # java substring 
 
 # java string palindrome detector
+# EOF-> read inputs  until you reach end of file
