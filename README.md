@@ -6,4 +6,5 @@
 # java string palindrome detector
 # EOF-> read inputs  until you reach end of file
 # Currency Formatter us, india, china, france
-# DateTime 
+# DateTime  
+# Java primality checker  SOURCE-> https://www.hackerrank.com/challenges/java-primality-test/forum
