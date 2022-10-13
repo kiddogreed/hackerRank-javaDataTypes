@@ -7,3 +7,4 @@
 # EOF-> read inputs  until you reach end of file
 # Currency Formatter us, india, china, france
 # DateTime 
+# Datatypes
