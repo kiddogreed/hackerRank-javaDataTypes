@@ -8,3 +8,8 @@
 # Currency Formatter us, india, china, france
 # DateTime 
 # Datatypes
+# JavaString - introduction  compares string lexicographically and make first letter capital
+
+
+# set JAVA_HOME
+export JAVA_HOME="C:/Program Files/Java/jdk1.8.0_291"
