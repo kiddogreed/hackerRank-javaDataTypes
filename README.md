@@ -8,3 +8,4 @@
 # Currency Formatter us, india, china, france
 # DateTime 
 # Datatypes
+# pattern-syntax-checker   -> https://www.hackerrank.com/challenges/pattern-syntax-checker/problem?isFullScreen=true
