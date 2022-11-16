@@ -14,5 +14,7 @@
 # JAVA Anagram
 # JAVA anagram 2 -> https://www.hackerrank.com/challenges/java-anagrams/forum
 
+# JAVA FIBONACCI SEQUENCE BASICS
+
 # set JAVA_HOME
 export JAVA_HOME="C:/Program Files/Java/jdk1.8.0_291"
