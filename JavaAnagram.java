@@ -2,7 +2,7 @@
  * JavaAnagram
  */
 
- import java.util.Arrays;
+
 import java.util.Scanner;
 
 public class JavaAnagram {
@@ -16,8 +16,8 @@ static boolean isAnagram(String a, String b) {
   char[] A = a.toCharArray();
   char[] B = b.toCharArray();
 
-  Arrays.sort(A);
-  Arrays.sort(B);
+  java.util.Arrays.sort(A);
+  java.util.Arrays.sort(B);
 
   String sortedA = String.valueOf(A);
   String sortedB = String.valueOf(B);
